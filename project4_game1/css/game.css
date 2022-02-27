@@ -1,0 +1,53 @@
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;  
+}
+p{
+    text-align: center;
+    left:0;
+    right: 0;
+    margin: auto;
+    padding-top: 3rem;
+    
+}
+
+h4{
+    text-align: center;
+    left:0;
+    right: 0;
+    margin: auto;
+    padding-bottom: 1rem;
+    
+}
+.game{
+    align-items: center;
+}
+
+.img-container{
+    display: flex;
+   
+  
+}
+
+.image{
+   width: 10%;
+   
+}
+.image1{
+    width: 10%;
+}
+#score{
+    border-radius: 1rem;
+    margin: 2rem 31rem;
+    padding: 1rem 2rem;
+}
+.cover{
+    position:absolute;
+    z-index: 1;
+    width: 60rem;
+    height: 10rem;
+    content: "";
+    display: none;
+}
+
